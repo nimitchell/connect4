@@ -7,7 +7,6 @@ verify_ssl = true
 python_version = "3.13"
 
 [packages]
-pre-commit = "*"
 flake8-bugbear = "*"
 flake8-docstrings = "*"
 
