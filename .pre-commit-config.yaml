@@ -21,6 +21,8 @@ repos:
         language: system
         entry: pipenv run flake8
         types: [python]
+        args: ["--isolated", "."]
+        always_run: true
         
       - id: mypy
         name: mypy
