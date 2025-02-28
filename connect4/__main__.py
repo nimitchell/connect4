@@ -1,6 +1,6 @@
 import sys
 
-from connect4.connect4 import fib  # random commenttest
+from connect4.connect4 import fib  # random comment test
 
 if __name__ == "__main__":
     n = int(sys.argv[1])
