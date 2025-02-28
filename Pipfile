@@ -8,12 +8,14 @@ python_version = "3.13"
 
 [packages]
 pre-commit = "*"
+flake8-bugbear = "*"
+flake8-docstrings = "*"
 
 [dev-packages]
 black = "==22.3.0"
-flake8 = "*"
 isort = "*"
 mypy = "*"
 pytest = "*"
 pytest-cov = "*"
 pre-commit = "*"
+flake8 = "*"
