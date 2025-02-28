@@ -8,6 +8,7 @@ repos:
         entry: pipenv run flake8
         types: [python]
         exclude: setup.py
+        fail_fast: true
 
       - id: isort
         name: isort
