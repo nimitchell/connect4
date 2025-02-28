@@ -7,9 +7,8 @@ repos:
         language: system
         entry: pipenv run flake8
         types: [python]
-        exclude: setup.py
-        fail_fast: true
-
+        args: ["--isolated"]
+        
       - id: isort
         name: isort
         stages: [pre-commit]
