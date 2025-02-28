@@ -5,7 +5,7 @@ repos:
         name: isort
         stages: [pre-commit]
         language: system
-        entry: bash -c "pipenv run isort"
+        entry: pipenv run isort
         types: [python]
 
       - id: black
@@ -19,7 +19,7 @@ repos:
         name: flake8
         stages: [pre-commit]
         language: system
-        entry: bash -c "pipenv run flake8"
+        entry: pipenv run flake8
         types: [python]
         exclude: setup.py
 
