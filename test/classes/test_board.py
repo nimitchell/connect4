@@ -10,4 +10,5 @@ def test_board():
     assert b.size == 7
     assert len(b.array) == 7
     assert len(b.array[0]) == 7
+
     assert b == b
