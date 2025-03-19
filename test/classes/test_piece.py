@@ -11,6 +11,7 @@ def test_piece():
     assert piece.turn == 0
     piece2 = Piece(player)
     assert piece == piece2
+    assert str(piece) == "0(player_0, turn:0, (0,0))"
 
 
 def test_get_player_num():

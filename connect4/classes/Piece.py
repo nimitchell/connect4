@@ -17,7 +17,7 @@ class Piece:
         self.col = col
 
     def __str__(self):
-        return f"{self.player.number}({self.player}, turn:{self.turn}, ({self.row},{self.col}))"
+        return f"{self.player.number}({self.player.name}, turn:{self.turn}, ({self.row},{self.col}))"
 
     def __eq__(self, other):
         return (
